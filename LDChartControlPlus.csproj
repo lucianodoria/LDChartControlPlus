@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: G:\Projetos\GITEA\LDChartControlPlus\LDChartControlPlus.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2A82DC15-7809-4496-8E1B-6850A4404824}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>LDChartControlPlus</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.3873.26967</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <RootNamespace>LDChartControlPlus</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChartBarSerieMedia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartBarResposta.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartPlot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RGBHSL.cs" />
+    <Compile Include="Pie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Utilitarios.cs" />
+    <Compile Include="UserControlTeste.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartBarAcertividadePainelBordo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Function.cs" />
+    <Compile Include="ChartBarSerie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChartBarNivel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ItemsChartPlot.cs" />
+    <Compile Include="PlotStepXType.cs" />
+    <Compile Include="ChartBarAcertividade.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ItemsChart.cs" />
+    <Compile Include="DirectionLabel.cs" />
+    <Compile Include="ChartStyle.cs" />
+    <Compile Include="Properties\Resources.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ChartBar.resx" />
+    <EmbeddedResource Include="ChartBarAcertividade.resx" />
+    <EmbeddedResource Include="ChartBarAcertividadePainelBordo.resx" />
+    <EmbeddedResource Include="ChartBarNivel.resx" />
+    <EmbeddedResource Include="ChartBarResposta.resx" />
+    <EmbeddedResource Include="ChartBarSerie.resx" />
+    <EmbeddedResource Include="ChartBarSerieMedia.resx" />
+    <EmbeddedResource Include="ChartPlot.resx" />
+    <EmbeddedResource Include="Pie.resx" />
+    <EmbeddedResource Include="Properties\Resources.resx" />
+    <EmbeddedResource Include="UserControlTeste.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
